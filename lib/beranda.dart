@@ -13,7 +13,6 @@ class TransakuApp extends StatelessWidget {
   }
 }
 
-// Footer widget agar bisa dipakai ulang
 class Footer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -181,7 +180,6 @@ class _TransferPageState extends State<TransferPage> {
                 ),
                 SizedBox(height: 20),
 
-                // Input Form
                 TextField(
                   controller: rekeningController,
                   decoration: InputDecoration(
@@ -219,7 +217,6 @@ class _TransferPageState extends State<TransferPage> {
                 ),
                 SizedBox(height: 20),
 
-                // Tombol Aksi
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [

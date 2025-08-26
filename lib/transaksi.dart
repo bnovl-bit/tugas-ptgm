@@ -30,7 +30,6 @@ class TransferPage extends StatelessWidget {
             ),
             SizedBox(height: 20),
 
-            // Input No Rekening
             TextField(
               controller: rekeningController,
               decoration: InputDecoration(
@@ -41,8 +40,6 @@ class TransferPage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 12),
-
-            // Input Nama Penerima
             TextField(
               controller: namaController,
               decoration: InputDecoration(
@@ -53,8 +50,6 @@ class TransferPage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 12),
-
-            // Input Nominal
             TextField(
               controller: nominalController,
               keyboardType: TextInputType.number,
@@ -66,8 +61,6 @@ class TransferPage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 12),
-
-            // Input Keterangan
             TextField(
               controller: ketController,
               decoration: InputDecoration(
@@ -78,8 +71,6 @@ class TransferPage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 20),
-
-            // Tombol Batal & Selesai
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -107,8 +98,6 @@ class TransferPage extends StatelessWidget {
               ],
             ),
             Spacer(),
-
-            // Footer
             Container(
               width: double.infinity,
               padding: EdgeInsets.all(12),
